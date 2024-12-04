@@ -70,3 +70,28 @@ ul li {
 ul li:last-child {
     border-bottom: none;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 5vw;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        padding: 20px;
+    }
+}
+
+
+h1 {
+    font-size: 5vw;
+}
+
